@@ -24,7 +24,7 @@ namespace Test.Examples.Core
         [TestMethod]
         public void Test_SumOfMultipleOf3_Threshold25()
         {
-            // somma dei multipli di 3 fino a 10. Il numero primo non lo prendo in esame in quanto si richiede la somma dei soli multipli 
+            // somma dei multipli di 3 fino a 25. Il numero primo non lo prendo in esame in quanto si richiede la somma dei soli multipli 
             // 1 2 (3) 4 5 [6] 7 8 [9] 10 11 [12] 13 14 [15] 16 17 [18] 19 20 [21] 22 23 [24] 25       = 105 
             int threshold = 25;
             int correctValue = 105;
@@ -36,7 +36,7 @@ namespace Test.Examples.Core
         [TestMethod]
         public void Test_SumOfMultipleOf5_Threshold10()
         {
-            // somma dei multipli di 3 fino a 10. Il numero primo non lo prendo in esame in quanto si richiede la somma dei soli multipli 
+            // somma dei multipli di 5 fino a 10. Il numero primo non lo prendo in esame in quanto si richiede la somma dei soli multipli 
             // 1 2 3 4 (5) 6 7 8 9 [10]       = 10 
             int threshold = 10;
             int correctValue = 10;
@@ -46,7 +46,7 @@ namespace Test.Examples.Core
         [TestMethod]
         public void Test_SumOfMultipleOf5_Threshold25()
         {
-            // somma dei multipli di 3 fino a 10. Il numero primo non lo prendo in esame in quanto si richiede la somma dei soli multipli 
+            // somma dei multipli di 5 fino a 125. Il numero primo non lo prendo in esame in quanto si richiede la somma dei soli multipli 
             // 1 2 3 4 (5) 6 7 8 9 [10] 11 12 13 14 [15] 16 17 18 19 [20] 21 22 23 24 [25]       = 70
             int threshold = 25;
             int correctValue = 70;
