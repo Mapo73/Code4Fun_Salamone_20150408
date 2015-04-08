@@ -25,6 +25,8 @@ namespace Examples.Core
                     while (arr.Contains(v));
 
                     arr[i] = v;
+                    
+                    // mettiamo il turbo a questo algoritmo
                     if (arr.Contains(min) && v == min + 1)
                         min = v;
                     if (arr.Contains(max) && v == max - 1)
